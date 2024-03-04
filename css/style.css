@@ -1,3 +1,4 @@
+/* practice code
 body {
     font-family:Arial, Helvetica, sans-serif;
     background: red;
@@ -31,4 +32,116 @@ ul {
 
 a {
     color: white;
+}
+*/
+
+/* GLOBAL RESET */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+/* GLOBAL COLORS */
+body {
+    color: rgb(0, 0, 0, 0.8);
+}
+a {
+    color: rgba(0, 102, 204, 1);
+}
+a:hover {
+    color: rgba(0, 51, 153, 1);
+}
+
+/* GLOBAL TYPOGRAPHY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 88.75%; /* =14px */
+    line-height: 1.4;
+}
+
+/* HEADER STRUCTURE */
+header {
+    background-color: rgb(86, 166, 245);
+    color: rgba(0, 0, 0, 0.799);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+header a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+header a:hover {
+    color:rgb(255, 219, 176);
+}
+/* SITE ID */
+.site-id h1 {
+    margin: 0;
+}
+/* SITE NAV */
+.site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.site-nav a {
+    display: block;
+    padding: 1em;
+}
+/* MAIN */
+main {
+    background: rgba(0,0,0,0.05);
+}
+/* HERO SECTION */
+.hero {
+    background-color: rgba(86, 166, 245, 1);
+    text-align: center;
+    color: white;
+    padding: 6em 1em;
+}
+.hero h2 {
+    font-size: 6em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.hero p {
+    max-width: 30em;
+    margin: 1em auto;
+}
+/* NEWS SECTION */
+.news {
+    padding: 6em 1em;
+    display: grid;
+    justify-content: center;
+}
+.news ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.news h2 {
+    text-align: center;
+}
+/* FOOTER */
+footer {
+    border-top: 1px solid rgba(0,0,0,0.05);
+    padding: 1em;
+}
+/* SOCIAL NAV */
+.social-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.social-nav a {
+    display: block;
+    padding: 1em;
 }
