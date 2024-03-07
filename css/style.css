@@ -92,6 +92,11 @@ header a:hover {
     display: block;
     padding: 1em;
 }
+/* SUB PAGES */
+.pages-sub .hero {
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.8);
+}
 /* MAIN */
 main {
     background: rgba(0,0,0,0.05);
